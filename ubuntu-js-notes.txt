@@ -1,0 +1,5 @@
+Add PPA: ppa:chris-lea/node.js
+Install nodejs npm
+install jshint: sudo npm install -g jshint
+
+Pathogen plugin: https://github.com/scrooloose/syntastic 
