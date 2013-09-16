@@ -3,12 +3,14 @@
   vars:
     pathogen_plugin_urls:
       - https://github.com/ervandew/supertab
-      - https://github.com/davidhalter/jedi-vim
       - https://github.com/scrooloose/syntastic
       - https://github.com/Tinche/L9
-      - https://github.com/Tinche/FuzzyFinder
       - https://github.com/scrooloose/nerdtree
-      - https://github.com/techlivezheng/vim-plugin-minibufexpl
+      - https://github.com/bling/vim-bufferline
+      - https://github.com/bling/vim-airline
+      - https://github.com/Shougo/unite.vim
+      - https://github.com/tpope/vim-surround
+      - https://github.com/skwp/vim-easymotion
     vimrc_snippets:
       - "{{local}}/snippets/shell.vim"
       - filetype-plugin-indent.vim
@@ -20,7 +22,10 @@
       - move-lines.vim
       - hidden.vim
       - "{{local}}/snippets/remap-ctrlc.vim"
-      - "{{local}}/snippets/jedi.vim"
-      - "{{local}}/snippets/ff.vim"
       - "{{local}}/snippets/nerdtree.vim"
       - "{{local}}/snippets/buf-movement.vim"
+      - "{{local}}/snippets/set-laststatus.vim"
+      - "{{local}}/snippets/bufferline.vim"
+      - "{{local}}/snippets/airline.vim"
+      - "{{local}}/snippets/unite.vim"
+      - "{{local}}/snippets/easymotion.vim"

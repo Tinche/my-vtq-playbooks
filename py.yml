@@ -1,0 +1,8 @@
+---
+- include: gen.yml
+- include: "{{vtq}}/vtq.yml"
+  vars:
+    pathogen_plugin_urls:
+      - https://github.com/davidhalter/jedi-vim
+    vimrc_snippets:
+      - "{{local}}/snippets/jedi.vim"
