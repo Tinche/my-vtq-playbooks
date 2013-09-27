@@ -1,5 +1,5 @@
 " NERDTree key bindings.
-nmap <silent> <leader>t :NERDTreeToggle<CR>
+nmap <silent> <F2> :NERDTreeToggle<CR>
 
 " Automatically close Vim if NERDTree is the only open window.
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
@@ -8,3 +8,4 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 let g:NERDTreeQuitOnOpen=1
 let g:NERDTreeAutoCenter=1
 let g:NERDChristmasTree=1
+
