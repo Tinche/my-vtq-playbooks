@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+      - name: Compile YCM.
+        shell: ./install.sh chdir=~/.vim/bundle/YouCompleteMe/
