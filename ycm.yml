@@ -1,5 +1,8 @@
 ---
 - hosts: all
   tasks:
+      - name: Ensure CMake is installed.
+        apt: pkg=cmake state=present
+
       - name: Compile YCM.
         shell: ./install.sh chdir=~/.vim/bundle/YouCompleteMe/

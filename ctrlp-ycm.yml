@@ -7,11 +7,10 @@
       - https://github.com/scrooloose/nerdtree
       - https://github.com/bling/vim-bufferline
       - https://github.com/bling/vim-airline
-      - https://github.com/Shougo/unite.vim
-      - https://github.com/tsukkee/unite-tag
       - https://github.com/tpope/vim-surround
       - https://github.com/skwp/vim-easymotion
       - https://github.com/tpope/vim-fugitive
+      - https://github.com/kien/ctrlp.vim
     vimrc_snippets:
       - "{{local}}/snippets/shell.vim"
       - "{{vtq}}/snippets/filetype-plugin-indent.vim"
@@ -28,8 +27,7 @@
       - "{{local}}/snippets/set-laststatus.vim"
       - "{{local}}/snippets/bufferline.vim"
       - "{{local}}/snippets/airline.vim"
-      - "{{local}}/snippets/unite.vim"
-      - "{{local}}/snippets/unite-tag.vim"
       - "{{local}}/snippets/easymotion.vim"
       - "{{local}}/snippets/completeopt.vim"
+      - "{{local}}/snippets/ctrlp.vim"
 - include: ycm.yml
