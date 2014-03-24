@@ -2,9 +2,8 @@
 - include: "{{vtq}}/vtq.yml"
   vars:
     pathogen_plugin_urls:
-      - https://github.com/ervandew/supertab
+      - https://github.com/Valloric/YouCompleteMe
       - https://github.com/scrooloose/syntastic
-      - https://github.com/Tinche/L9
       - https://github.com/scrooloose/nerdtree
       - https://github.com/bling/vim-bufferline
       - https://github.com/bling/vim-airline
@@ -13,16 +12,18 @@
       - https://github.com/tpope/vim-surround
       - https://github.com/skwp/vim-easymotion
       - https://github.com/tpope/vim-fugitive
+      - https://github.com/hynek/vim-python-pep8-indent
     vimrc_snippets:
       - "{{local}}/snippets/shell.vim"
-      - filetype-plugin-indent.vim
-      - syntax.vim
-      - tabs.vim
-      - line-numbers.vim
-      - hlsearch.vim
-      - remember.vim
-      - move-lines.vim
-      - hidden.vim
+      - "{{vtq}}/snippets/filetype-plugin-indent.vim"
+      - "{{vtq}}/snippets/syntax.vim"
+      - "{{vtq}}/snippets/tabs.vim"
+      - "{{vtq}}/snippets/line-numbers.vim"
+      - "{{vtq}}/snippets/hlsearch.vim"
+      - "{{vtq}}/snippets/remember.vim"
+      - "{{vtq}}/snippets/move-lines.vim"
+      - "{{vtq}}/snippets/hidden.vim"
+      - "{{local}}/snippets/indent.vim"
       - "{{local}}/snippets/remap-ctrlc.vim"
       - "{{local}}/snippets/nerdtree.vim"
       - "{{local}}/snippets/buf-movement.vim"
@@ -32,3 +33,4 @@
       - "{{local}}/snippets/unite.vim"
       - "{{local}}/snippets/unite-tag.vim"
       - "{{local}}/snippets/easymotion.vim"
+      - "{{local}}/snippets/completeopt.vim"
